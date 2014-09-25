@@ -13,6 +13,12 @@
 		688CD22419CB4F32001E6F55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 688CD22319CB4F32001E6F55 /* Images.xcassets */; };
 		688CD22719CB4F32001E6F55 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 688CD22519CB4F32001E6F55 /* LaunchScreen.xib */; };
 		688CD23319CB4F33001E6F55 /* _9RedBalloonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688CD23219CB4F33001E6F55 /* _9RedBalloonsTests.swift */; };
+		688CD24219CB5114001E6F55 /* BerlinTVTower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 688CD23D19CB5114001E6F55 /* BerlinTVTower.jpg */; };
+		688CD24319CB5114001E6F55 /* RedBalloon1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 688CD23E19CB5114001E6F55 /* RedBalloon1.jpg */; };
+		688CD24419CB5114001E6F55 /* RedBalloon2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 688CD23F19CB5114001E6F55 /* RedBalloon2.jpg */; };
+		688CD24519CB5114001E6F55 /* RedBalloon3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 688CD24019CB5114001E6F55 /* RedBalloon3.jpg */; };
+		688CD24619CB5114001E6F55 /* RedBalloon4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 688CD24119CB5114001E6F55 /* RedBalloon4.jpg */; };
+		688CD24919CB51F6001E6F55 /* Balloon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688CD24819CB51F6001E6F55 /* Balloon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		688CD22C19CB4F33001E6F55 /* 99RedBalloonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 99RedBalloonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		688CD23119CB4F33001E6F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		688CD23219CB4F33001E6F55 /* _9RedBalloonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _9RedBalloonsTests.swift; sourceTree = "<group>"; };
+		688CD23D19CB5114001E6F55 /* BerlinTVTower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BerlinTVTower.jpg; sourceTree = "<group>"; };
+		688CD23E19CB5114001E6F55 /* RedBalloon1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon1.jpg; sourceTree = "<group>"; };
+		688CD23F19CB5114001E6F55 /* RedBalloon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon2.jpg; sourceTree = "<group>"; };
+		688CD24019CB5114001E6F55 /* RedBalloon3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon3.jpg; sourceTree = "<group>"; };
+		688CD24119CB5114001E6F55 /* RedBalloon4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon4.jpg; sourceTree = "<group>"; };
+		688CD24819CB51F6001E6F55 /* Balloon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balloon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,7 @@
 				688CD21C19CB4F32001E6F55 /* AppDelegate.swift */,
 				688CD21E19CB4F32001E6F55 /* ViewController.swift */,
 				688CD22019CB4F32001E6F55 /* Main.storyboard */,
+				688CD24719CB51C0001E6F55 /* Models */,
 				688CD22319CB4F32001E6F55 /* Images.xcassets */,
 				688CD22519CB4F32001E6F55 /* LaunchScreen.xib */,
 				688CD21A19CB4F32001E6F55 /* Supporting Files */,
@@ -90,6 +103,7 @@
 		688CD21A19CB4F32001E6F55 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				688CD23C19CB5114001E6F55 /* 99RedBalloonsAssets */,
 				688CD21B19CB4F32001E6F55 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +124,26 @@
 				688CD23119CB4F33001E6F55 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		688CD23C19CB5114001E6F55 /* 99RedBalloonsAssets */ = {
+			isa = PBXGroup;
+			children = (
+				688CD23D19CB5114001E6F55 /* BerlinTVTower.jpg */,
+				688CD23E19CB5114001E6F55 /* RedBalloon1.jpg */,
+				688CD23F19CB5114001E6F55 /* RedBalloon2.jpg */,
+				688CD24019CB5114001E6F55 /* RedBalloon3.jpg */,
+				688CD24119CB5114001E6F55 /* RedBalloon4.jpg */,
+			);
+			path = 99RedBalloonsAssets;
+			sourceTree = "<group>";
+		};
+		688CD24719CB51C0001E6F55 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				688CD24819CB51F6001E6F55 /* Balloon.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +226,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				688CD24419CB5114001E6F55 /* RedBalloon2.jpg in Resources */,
 				688CD22219CB4F32001E6F55 /* Main.storyboard in Resources */,
+				688CD24519CB5114001E6F55 /* RedBalloon3.jpg in Resources */,
 				688CD22719CB4F32001E6F55 /* LaunchScreen.xib in Resources */,
+				688CD24619CB5114001E6F55 /* RedBalloon4.jpg in Resources */,
 				688CD22419CB4F32001E6F55 /* Images.xcassets in Resources */,
+				688CD24319CB5114001E6F55 /* RedBalloon1.jpg in Resources */,
+				688CD24219CB5114001E6F55 /* BerlinTVTower.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				688CD21F19CB4F32001E6F55 /* ViewController.swift in Sources */,
+				688CD24919CB51F6001E6F55 /* Balloon.swift in Sources */,
 				688CD21D19CB4F32001E6F55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
